@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../css/all.css" />
+	
+	<link rel="shortcut icon" href="../images/eye.png" type="image/x-icon"/>
+	<link rel="icon" href="../images/enssatraid.png" type="image/x-icon"/>
+        <title>ENSSAT RAID AVENTURE</title>
+	<script type="text/javascript" src="../javascript/jquery.js"></script>
+	<script type="text/javascript" src="../javascript/index.js"></script>
+	<script type="text/javascript" src="../javascript/all.js"></script>
+    </head>
+ 
+
+
+
+    <body style="background-image:url(../images/lune.jpg);">
+	  <div class="page">	
+	
+		<header>
+				
+				<div class="tete">
+						
+					      
+						<a href="../index.html"><img src="../images/eye1.jpg" alt="Logo de eye" width="995" height="170" id="logo" /></a>
+						<h1>Enssat Raid Aventure 6ème édition</h1>
+						
+				</div>
+				<ul class="menu">
+						<li><a class="bouton-rouge" href="../index.html"><img src="../images/enssatraid1.png" alt="cam" class="camera" />Accueil<img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a>
+							
+						</li>
+						<li><a class="bouton-rouge" href="#"><img src="../images/enssatraid1.png" alt="cam" class="camera"/>Parcours <img src="../images/bouton_rouge.png" alt="" /></a>
+
+							<ul>
+		        				
+		        				<li><a class="bouton-rouge" href="./initie.html"><img src="../images/enssatraid1.png" alt="cam" class="camera" />Parcours initié<img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a></li>
+		        				<li><a class="bouton-rouge" href="./expert.html"><img src="../images/enssatraid1.png" alt="cam" class="camera" />Parcours expert<img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a></li>
+		        				</ul>
+						</li>
+					
+						<li><a class="bouton-rouge" href="#"><img src="../images/enssatraid1.png" alt="cam" class="camera"/>Galeries <img src="../images/bouton_rouge.png" alt="" /></a>
+							<ul>
+		        				
+		        				<li><a class="bouton-rouge" href="./galeriePhoto.html"><img src="../images/enssatraid1.png" alt="cam" class="camera" />Photos<img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a></li>
+		        				<li><a class="bouton-rouge" href="./galerieVideos.html"><img src="../images/enssatraid1.png" alt="cam" class="camera" />Videos<img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a></li>
+		        				</ul>					
+						</li>
+					
+						<li><a class="bouton-rouge" href="./stands.html"><img src="../images/enssatraid1.png" alt="cam" class="camera"/>Stands <img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a>
+							
+						</li>
+<li><a class="bouton-rouge" href="./inscription.html"><img src="../images/enssatraid1.png" alt="cam" class="camera"/>Inscription <img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a>
+							
+						</li>
+				</ul>	
+				
+			
+		</header>
+		<table >
+		     
+			 <thead style="width:1000px;"> 
+       				<tr>
+        				<div id="prev" style="width:20px;  ">	
+						<img src="../images/prev.png" alt="" width="40" height="30"/>
+					</div>
+				
+					<td id="defile" colspan="3"  style="width:960px; height:200px;">
+					
+					<a href="http://www.pagesjaunes.fr/pros/50950608"><img id="pic111" src="../images/lefournilapizza.jpg" alt="" width="40" height="30" style="border-radius: 10px;  position: relative; left: 10px;opacity:0.4;" /></a>
+					
+					<a href="http://www.groupe-gmd.eu/fr/tregor-plastiques-industrie.html"><img id="pic1111" src="../images/TPI.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
+					
+					</td>
+				
+					<div id="next" style="width:20px;  ">
+						<img src="../images/next.png" alt="" width="40" height="30"/>  
+					</div>
+       				</tr>
+   			</thead>
+		   
+
+			<script>
+
+		$('#pic111').animate({
+		opacity: 1.0,
+		top: '+=10',
+		width:'30%',	
+		height:'60%',
+		}, 1200, function() {
+		// Animation complete.
+		});
+
+		c='111';
+		
+		$('#next').click(function() {
+		chaine='#pic';	
+		prec=chaine.concat(c);
+
+		if(c=='11111') c='';
+		
+		//c = c.slice(0, -1)
+		c=c+'1',
+		suiv=chaine.concat(c),
+		$(suiv).animate({
+		opacity: 1.0,
+		top: '+=10',
+		width:'30%',	
+		height:'60%',
+		
+		}, 1000, function() {
+		// Animation complete.
+		});
+		$(prec).animate({
+		opacity: 0.4,
+		top: '-=10',
+		width:'6%',	
+		height:'14%',
+		
+		}, 1000, function() {
+		// Animation complete.
+		});
+		});
+
+
+
+
+		$('#prev').click(function() {
+		chaine='#pic';		
+		suiv=chaine.concat(c);
+		if(c=='1') c='111111';
+		c = c.slice(0, -1)
+		
+		prec=chaine.concat(c),
+		$(prec).animate({
+		opacity: 1.0,
+		top: '+=10',
+		width:'30%',	
+		height:'60%',
+		
+		}, 1000, function() {
+		// Animation complete.
+		});
+		$(suiv).animate({
+		opacity: 0.4,
+		top: '-=10',
+		width:'6%',	
+		height:'14%',
+		
+		}, 1000, function() {
+		// Animation complete.
+		});
+		});
+	
+		
+</script>
+		
+		
+			<tfoot>
+				<tr>
+					<td class="bottom" colspan="3" style="height:120px; ">
+						<p>Suivez-nous sur : </p>
+
+				
+						<a href="https://www.facebook.com/pages/Enssat-Raid-Aventure-2014/1432132040348497"><img src="../images/facebook.png" alt="Logo de facebook" class="social" title="Facebook" /></a>
+						
+					
+					</td.>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td class="side" style="width:240px; ">
+						<a href="../index.html"><img src="../images/index.png" alt="Logo de home"  width="80" height="80" id="home" /></a>
+						<a href="ddrs.html"><img src="../images/logod.png" alt="Devellopement durable"  width="90" height="80"  id="logod" /></a>
+							
+							<br><br />
+							<nav class="sidemenu">
+								<a  href="./partenaire.html">Partenaires</a><br><br />
+								
+								<a  href="./quiSommeNous.html">Qui sommes nous</a><br><br />
+								<a  href="./contactez.html">Contactez nous</a><br><br />
+								
+							</nav>	
+						<a href="http://www.enssat.fr/"><img id="enssat" src="../images/enssat.png" alt="" width="215" height="70" style="border-radius:10px; position: relative; left: 10px; " /></a> </br></br>
+						<a href="http://www.univ-rennes1.fr/"><img id="rennes1" src="../images/rennes1.png" alt="" width="215" height="70" style="border-radius:10px; position: relative; left: 10px; " /></a>				
+					<br></br><br></br>		
+							
+					</td>
+		
+					<td class="milieu" colspan="2" style="width:750px; height:500px;">
+					<h2> Parcours initié </h2>
+					<br></br><br>
+					<p class="accueil2">&nbsp; <img src="../images/vtt.gif" alt="cam" class="camera" />&nbsp;&nbsp;Circuit VTT </br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - Distance : 26 km  </br>
+	 </br>
+	</br>
+
+&nbsp; <img src="../images/courir.gif" alt="cam" class="camera" />&nbsp;&nbsp;Circuit Trail </br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	- Distance : 8,2 km 
+	 </br>
+	</br></br></br>
+
+&nbsp; <img src="../images/kayak.gif" alt="cam" class="camera" />&nbsp;&nbsp;Circuit kayak </br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - Distance : 7,5 km  </br>
+	 </br>
+
+</p>
+					
+					
+					
+					<br></br> </br></br></br></br></br>
+					
+		
+
+							
+		
+					</td>
+				
+					
+			</tbody>
+		    </div>		
+	    </body>
+	</html>

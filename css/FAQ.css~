@@ -1,0 +1,328 @@
+body
+{
+
+    background-attachment: scroll;
+	background-repeat: no-repeat:
+	
+	background-color: silver;
+}
+
+
+*{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;}
+
+/*pour mettre toute la page au milieu*/
+.page
+{
+	 margin-left: auto;
+  margin-right: auto;
+  width:1000px;
+}
+.search
+{
+	text-align:right;
+}
+.tete
+{
+	
+	margin-top:5px;
+	
+}
+
+h1,h2
+{
+	text-align:center;
+}
+header h2
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 1.5em;
+    font-weight: normal;
+	
+}
+
+.sidemenu
+{
+	font-size:0.8em;
+	text-align:center;
+	bottom:10px;
+	
+	
+	
+}
+
+#defile
+{
+	text-align:center;
+	background-image:url("../images/universe1.jpg");
+	border-radius: 10px;
+	
+}
+
+
+ 
+#logo, header h2
+{
+    display: inline-block;
+    margin-bottom: 0px;
+    
+}
+.milieu h2{
+	color:gray;
+	border-bottom:1px solid #CC0;
+	margin-bottom:10px;
+}
+h2
+{
+margin-left:40px;
+}
+
+
+
+#home
+{
+	margin-left:60px;
+	margin-bottom:125px;
+	left:295px;
+	
+	
+}
+a:hover
+{
+	color:red;
+}
+a:visited
+{
+	color:black;
+}
+.milieu
+{
+	
+	background-color: white;
+	border-radius: 10px;
+	
+	
+	
+}
+
+#video
+{
+	
+	margin-left:150px;
+	margin-top:200px;
+}
+
+header
+{
+	
+	border-radius: 10px;
+	background-image:url("../images/universe.jpg");
+	width:995px
+}
+
+.bottom
+{
+	border-radius: 10px;
+	background-image:url("../images/side.jpg");
+}
+
+.bottom p
+{
+	color:gray;
+}
+.side
+{
+	background-image: url("../images/sided.jpg") ;
+	background-repeat:repeat-y;
+	border-radius: 10px;
+	
+}
+/*les sous menus cachés*/
+.menu ul
+{
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background: none;
+    background-image:url("../images/universe.jpg");
+  border-radius: 10px;
+  box-shadow: 6px;
+   opacity: 0.85;
+  margin-top:3px;
+}
+
+
+.social
+{
+	margin-left:15px;
+	margin-right:5px;
+	margin-top:5px;
+	position:relative;
+	left:75px;
+}	
+
+
+/*passage de curseur sur les menus*/
+.menu li:hover>ul
+{
+  visibility: visible;
+  top: 100%;
+}
+ 
+/*nav
+{
+    display: inline-block;
+    width: 1200px;
+    text-align: right;
+}
+ 
+nav ul
+{
+    list-style-type: none;
+}
+ 
+nav li
+{
+    display: inline-block;
+    margin-right:60px;
+    margin-left: 60px;
+}
+ */
+iframe
+{
+margin-left:100px;
+}
+#textvideo1
+{
+text-align:center;
+}
+#textvideo2
+{
+text-align:center;
+}
+.menu a
+{
+    font-size: 1.2em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.bouton-rouge
+{
+    
+    height: 25px;
+    padding: 3px 15px 0px 0px;
+    background: url('../images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.3em;
+    
+   
+    color: white;
+    text-decoration: none;
+}
+
+.bouton-rouge:active
+{
+	 box-shadow: 5px 5px 5px  #760001 inset ;
+}
+
+
+
+.bouton-rouge img
+{
+    border: 0;
+}
+
+
+ 
+.bouton-rouge:hover
+{
+    color: #760001;
+    background-color:gray;
+}
+
+
+.menu
+{
+	margin-left:150px;
+}/*pour tout les menus*/
+.menu li
+{
+
+ 
+
+  position: relative;
+  
+
+
+   display: inline-block;
+    margin-right:0px;
+    margin-left: 50px;
+    margin-bottom:20px;
+    margin-top:10px;
+	text-align:center;
+	
+}
+/*juste pour les sous menus*/
+.menu ul li
+{
+
+margin-right: 0px;
+margin-left: 20px;
+margin-bottom: 20px;
+margin-top: 10px;
+
+  list-style-type: none;
+
+    width: 305px;
+    text-align: left;
+  list-style-type: none;
+}
+.menu ul li:hover
+{
+
+	color: #760001;
+    
+	
+}
+
+.deroule
+{
+	text-align:center;
+	
+	 margin-left: auto;
+  margin-right: auto;
+  width:1000px;
+	
+}
+
+#pic1,#pic11,#pic111,#pic1111,#pic11111
+{
+	margin-top:0px;
+}
+*#prev:hover,#next:hover
+{
+    cursor: pointer;
+    
+}
+
+#prev ,#next
+{
+position: absolute;
+margin-top:110px;
+opacity:0.5;
+
+}
+#next
+{
+
+	right:350px;
+}
+#prev
+{
+	left:350px;
+}
+

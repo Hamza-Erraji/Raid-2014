@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../css/all.css" />
+	<link rel="shortcut icon" href="../images/eye.png" type="image/x-icon"/>
+	<link rel="icon" href="../images/eye.png" type="image/x-icon"/>
+        <title>Internet Privacy</title>
+	<script type="text/javascript" src="../javascript/jquery.js"></script>
+	<script type="text/javascript" src="../javascript/home.js"></script>
+	<script type="text/javascript" src="../javascript/all.js"></script>
+    </head>
+ 
+
+
+
+    <body style="background-image:url(../images/lune.jpg);">
+	  <div class="page">	
+	
+		<header>
+				
+				<div class="tete">
+						<form class="search">
+  							<input type="text" class="input-medium search-query">
+  							<button class="btn" type="submit">Recherche</button>
+						</form>
+						 
+			
+					      
+						<a href="home.html"><img src="../images/eye.png" alt="Logo de eye" width="200" height="200" id="logo" /></a>
+						<h2>do you know who's watching you ?</h2>
+						
+				</div>
+				<ul class="menu">
+						<li><a class="bouton-rouge" href="introduction.html"><img src="../images/camera.png" alt="cam" class="camera"/>Introduction<img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a>
+							
+						</li>
+						<li><a class="bouton-rouge" href="#"><img src="../images/camera.png" alt="cam" class="camera"/>Effets <img src="../images/flechebas.png" alt="" /></a>
+
+							<ul>
+		        				
+		        				<li><a class="bouton-rouge" href="effets-vieprofessionnelle.html"><img src="../images/camera.png" alt="cam" class="camera" />Vie professionnelle<img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a></li>
+		        				<li><a class="bouton-rouge" href="effets-exemples.html"><img src="../images/camera.png" alt="cam" class="camera" />Exemples<img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a></li>
+		        				</ul>
+						</li>
+					
+						<li><a class="bouton-rouge" href="#"><img src="../images/camera.png" alt="cam" class="camera"/>La CNIL <img src="../images/flechebas.png" alt="" /></a>
+							<ul>
+		        				<li><a class="bouton-rouge" href="CNIL-intro.html"><img src="../images/camera.png" alt="cam" class="camera" />Introduction<img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a></li>
+		        				<li><a class="bouton-rouge" href="CNIL-fonctionnement.html"><img src="../images/camera.png" alt="cam" class="camera" />Fonctionnement<img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a></li>
+		        				<li><a class="bouton-rouge" href="CNIL-statistiques.html"><img src="../images/camera.png" alt="cam" class="camera" />Statistiques<img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a></li>
+		        				</ul>					
+						</li>
+					
+						<li><a class="bouton-rouge" href="conclusion.html"><img src="../images/camera.png" alt="cam" class="camera"/>conclusion <img src="../images/bouton_rouge.png" alt="" style="margin-left:3px;" /></a>
+							
+						</li>
+				</ul>	
+				
+			
+		</header>
+		<table >
+		     
+			 <thead style="width:1000px;"> 
+       				<tr>
+        				<div id="prev" style="width:20px;  ">	
+						<img src="../images/prev.png" alt="" width="40" height="30"/>
+					</div>
+				
+					<td id="defile" colspan="3"  style="width:960px; height:200px;">
+					<a href="http://www.letregor.fr/"><img id="pic1" src="../images/letregor.png" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
+					<a href="http://www.cnil.fr/"><img id="pic11" src="../images/cnil.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
+					<a href="http://aaee.enssat.fr/"><img id="pic111" src="../images/aaee.png" alt="" width="40" height="30" style="position: relative; left: 10px;opacity:0.4; " /></a>
+					<a href="http://www.enssat.fr/"><img id="pic1111" src="../images/enssat.png" alt="" width="40" height="30" style="border-radius: 10px;  position: relative; left: 10px;opacity:0.4;" /></a>
+					
+					<a href="http://www.ebay.com/"><img id="pic11111" src="../images/ebay.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
+					</td>
+				
+					<div id="next" style="width:20px;  ">
+						<img src="../images/next.png" alt="" width="40" height="30"/>  
+					</div>
+       				</tr>
+   			</thead>
+		   
+
+			<script>
+
+		$('#pic111').animate({
+		opacity: 1.0,
+		top: '+=10',
+		width:'30%',	
+		height:'60%',
+		}, 1200, function() {
+		// Animation complete.
+		});
+
+		c='111';
+		
+		$('#next').click(function() {
+		chaine='#pic';	
+		prec=chaine.concat(c);
+
+		if(c=='11111') c='';
+		
+		//c = c.slice(0, -1)
+		c=c+'1',
+		suiv=chaine.concat(c),
+		$(suiv).animate({
+		opacity: 1.0,
+		top: '+=10',
+		width:'30%',	
+		height:'60%',
+		
+		}, 1000, function() {
+		// Animation complete.
+		});
+		$(prec).animate({
+		opacity: 0.4,
+		top: '-=10',
+		width:'6%',	
+		height:'14%',
+		
+		}, 1000, function() {
+		// Animation complete.
+		});
+		});
+
+
+
+
+		$('#prev').click(function() {
+		chaine='#pic';		
+		suiv=chaine.concat(c);
+		if(c=='1') c='111111';
+		c = c.slice(0, -1)
+		
+		prec=chaine.concat(c),
+		$(prec).animate({
+		opacity: 1.0,
+		top: '+=10',
+		width:'30%',	
+		height:'60%',
+		
+		}, 1000, function() {
+		// Animation complete.
+		});
+		$(suiv).animate({
+		opacity: 0.4,
+		top: '-=10',
+		width:'6%',	
+		height:'14%',
+		
+		}, 1000, function() {
+		// Animation complete.
+		});
+		});
+	
+		
+</script>
+		
+		
+			<tfoot>
+				<tr>
+					<td class="bottom" colspan="3" style="height:120px; ">
+						<p>follow us at : </p>
+
+				
+						<a href="https://www.facebook.com/omar.bezzanou?ref=tn_tnmn"><img src="../images/facebook.png" alt="Logo de facebook" class="social" title="Facebook" /></a>
+						<a href="https://twitter.com/CNIL"><img src="../images/twitter.png" alt="Logo de twitter" class="social" title="Twitter" /></a>
+						<a href="https://plus.google.com/+cnil/posts"><img src="../images/google.png" alt="Logo de google" class="social" title="google+"/></a>
+						
+					
+					</td.>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td class="side" style="width:240px; ">
+						<a href="home.html"><img src="../images/home.png" alt="Logo de home" id="home" /></a>
+							
+							<br><br />
+							<nav class="sidemenu">
+								<a  href="FAQ.html">FAQ</a><br><br />
+								<a  href="http://www.cnil.fr/">Learn more</a><br><br />
+								<a  href="http://www.enssat.fr/">About us</a><br><br />
+							</nav>						
+							
+							<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+					</td>
+		
+					<td class="milieu" colspan="2" style="width:750px; height:890px;">
+						
+					<h2> Exemples sur les effets</h2><br></br>
+					<img src="../images/exemple.png" alt="" style="border-radius: 10px;  position: relative; left: 55px;" />
+
+					
+					          
+
+							
+		
+					</td>
+				
+					
+			</tbody>
+		    </div>		
+	    </body>
+	</html>

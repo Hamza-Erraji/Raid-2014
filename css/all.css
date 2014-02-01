@@ -1,0 +1,359 @@
+
+
+body
+{
+
+    background-attachment: scroll;
+	background-repeat: no-repeat:
+	
+	background-image: url("../images/yuno.jpg");
+}
+
+
+*{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;}
+/*organiser l'entete*/
+
+.tete
+{
+	
+	margin-top:5px;
+	
+}
+
+h1,h2
+{
+	margin-right:70px;
+	text-align:center;
+	color: red;
+}
+header h2
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #0901FB;
+    
+	
+}
+
+header
+{
+	
+	border-radius: 10px;
+	background-image:url("../images/universe.jpg");
+	width:995px
+}
+
+#logo, header h2
+{
+    display: inline-block;
+    margin-bottom: 0px;
+    
+}
+
+/*organiser le menu de l'entete*/
+.menu ul
+{
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background: none;
+    background-image:url("../images/lune.jpg");
+  border-radius: 10px;
+  box-shadow: 6px;
+   opacity: 0.85;
+  margin-top:0px;
+}
+
+.menu li:hover>ul
+{
+  visibility: visible;
+  top: 100%;
+}
+
+.menu a
+{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.menu li a
+{
+    color:#00621E;
+}
+.bouton-rouge
+{
+    
+    height: 25px;
+    padding: 3px 15px 0px 0px;
+    background: url('../images/orange.jpg') ;
+    border: 1px solid #0901FB;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+.bouton-rouge img
+{
+    border: 0;
+}
+
+
+ 
+.bouton-rouge:hover
+{
+    color: #760001;
+}
+
+
+.menu
+{
+	margin-left:0px;
+	
+	
+}/*pour tout les menus*/
+.menu li
+{
+
+ 
+
+  position: relative;
+  
+
+
+   display: inline-block;
+    margin-right:0px;
+    margin-left: 30px;
+    margin-bottom:20px;
+    margin-top:10px;
+	text-align:center;
+	
+}
+/*juste pour les sous menus*/
+.menu ul li
+{
+
+margin-right: 0px;
+margin-left: 20px;
+margin-bottom: 20px;
+margin-top: 10px;
+
+  list-style-type: none;
+
+    width: 305px;
+    text-align: left;
+  list-style-type: none;
+}
+.menu ul li:hover
+{
+
+	color: #760001;
+    
+	
+}
+
+
+
+/*pour organiser le menu à gauche*/
+
+.sidemenu
+{
+	font-size:1.2em;
+	text-align:center;
+	bottom:10px;
+	
+	
+	
+}
+
+#home
+{
+	margin-left:80px;
+	margin-top:10px;
+	margin-bottom:30px;
+	left:295px;
+	
+	
+}
+
+#logod
+{
+	margin-left:80px;
+}
+
+.underc
+{
+	margin-left:207px;
+}
+
+.side
+{
+	background-image: url("../images/sided.jpg") ;
+	background-repeat:repeat-y;
+	border-radius: 10px;
+	
+}
+
+
+/*pour organiser la barre de lien qui defile*/
+
+#defile
+{
+	text-align:center;
+	background-image:url("../images/mur1.jpg");
+	border-radius: 10px;
+	
+}
+
+
+
+#pic1,#pic11,#pic111,#pic1111,#pic11111
+{
+	margin-top:0px;
+}
+*#prev:hover,#next:hover
+{
+    cursor: pointer;
+    
+}
+
+#prev ,#next
+{
+position: absolute;
+margin-top:110px;
+opacity:0.5;
+
+}
+#next
+{
+
+	right:350px;
+}
+#prev
+{
+	left:350px;
+}
+
+/*pour organiser le contenue du milieu*/
+
+.milieu h2{
+	color:green;
+	border-bottom:1px solid #CC0;
+	margin-bottom:10px;
+}
+.milieu
+{
+	
+	background-image:url("../images/mur1.jpg");
+	border-radius: 10px;
+}
+
+/*pour organiser le contenue en bas*/
+.bottom
+{
+	border-radius: 10px;
+	background-image:url("../images/side.jpg");
+}
+
+.bottom p
+{
+	color:gray;
+}
+
+
+.social
+{
+	margin-left:15px;
+	margin-right:5px;
+	margin-top:5px;
+	position:relative;
+	left:75px;
+}	
+
+
+
+
+
+
+
+
+ 
+/*pour organiser les videos*/
+iframe
+{
+margin-left:100px;
+}
+#textvideo1
+{
+text-align:center;
+}
+#textvideo2
+{
+text-align:center;
+}
+
+#video
+{
+	
+	margin-left:150px;
+	margin-top:200px;
+}
+
+
+/*-------*/
+.page
+{
+	 margin-left: auto;
+  margin-right: auto;
+  width:1000px;
+}
+.search
+{
+	text-align:right;
+}
+
+
+h2
+{
+margin-left:40px;
+}
+
+
+a:hover
+{
+	color:red;
+}
+a:visited
+{
+	color:black;
+}
+
+#quiSommeNous 
+{
+	color:black;
+	text-align:center;
+}
+.accueil
+{
+	text-align:justify;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: bold;
+	line-height: 3;	
+}
+
+.accueil2
+{
+	text-align:justify;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+
