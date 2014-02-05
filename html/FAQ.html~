@@ -68,13 +68,13 @@
 						<img src="../images/prev.png" alt="" width="40" height="30"/>
 					</div>
 				
-					<td id="defile" colspan="3"  style="width:960px; height:200px;">
-					<a href="http://www.letregor.fr/"><img id="pic1" src="../images/letregor.png" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
-					<a href="http://www.cnil.fr/"><img id="pic11" src="../images/cnil.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
-					<a href="http://aaee.enssat.fr/"><img id="pic111" src="../images/aaee.png" alt="" width="40" height="30" style="position: relative; left: 10px;opacity:0.4; " /></a>
-					<a href="http://www.enssat.fr/"><img id="pic1111" src="../images/enssat.png" alt="" width="40" height="30" style="border-radius: 10px;  position: relative; left: 10px;opacity:0.4;" /></a>
+						<a href="http://cotesdarmor.fr/"><img id="pic1" src="../images/armor.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
+
+					<a href="http://www.pagesjaunes.fr/pros/50950608"><img id="pic11" src="../images/lefournilapizza.jpg" alt="" width="40" height="30" style="border-radius: 10px;  position: relative; left: 10px;opacity:0.4;" /></a>
 					
-					<a href="http://www.ebay.com/"><img id="pic11111" src="../images/ebay.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
+					<a href="http://www.groupe-gmd.eu/fr/tregor-plastiques-industrie.html"><img id="pic111" src="../images/TPI.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
+
+					<a href="http://www.lannion-tregor.com/"><img id="pic1111" src="../images/lannion.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
 					</td>
 				
 					<div id="next" style="width:20px;  ">
@@ -182,7 +182,7 @@
 							<br><br />
 							<nav class="sidemenu">
 								<a  href="FAQ.html">FAQ</a><br><br />
-								<a  href="#">Learn more</a><br><br />
+								<a  href="http://www.cnil.fr/">Learn more</a><br><br />
 								<a  href="http://www.enssat.fr/">About us</a><br><br />
 							</nav>	
 							<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>					

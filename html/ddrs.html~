@@ -24,7 +24,7 @@
 						
 					      
 						<a href="../index.html"><img src="../images/eye1.jpg" alt="Logo de eye" width="995" height="170" id="logo" /></a>
-						<h1>Enssat Raid Aventure 6e édition</h1>
+						<h1>Enssat Raid Aventure 6ème édition</h1>
 						
 				</div>
 				<ul class="menu">
@@ -68,9 +68,13 @@
 				
 					<td id="defile" colspan="3"  style="width:960px; height:200px;">
 					
-					<a href="http://www.pagesjaunes.fr/pros/50950608"><img id="pic111" src="../images/lefournilapizza.jpg" alt="" width="40" height="30" style="border-radius: 10px;  position: relative; left: 10px;opacity:0.4;" /></a>
+						<a href="http://cotesdarmor.fr/"><img id="pic1" src="../images/armor.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
+
+					<a href="http://www.pagesjaunes.fr/pros/50950608"><img id="pic11" src="../images/lefournilapizza.jpg" alt="" width="40" height="30" style="border-radius: 10px;  position: relative; left: 10px;opacity:0.4;" /></a>
 					
-					<a href="http://www.groupe-gmd.eu/fr/tregor-plastiques-industrie.html"><img id="pic1111" src="../images/TPI.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
+					<a href="http://www.groupe-gmd.eu/fr/tregor-plastiques-industrie.html"><img id="pic111" src="../images/TPI.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
+
+					<a href="http://www.lannion-tregor.com/"><img id="pic1111" src="../images/lannion.jpg" alt="" width="40" height="30" style="border-radius: 10px; position: relative; left: 10px;opacity:0.4;" /></a>
 					
 					</td>
 				
