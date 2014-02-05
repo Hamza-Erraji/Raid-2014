@@ -3,7 +3,7 @@
 		chaine='#pic';	
 		prec=chaine.concat(c);
 
-		if(c=='11111') c='';
+		if(c=='1111111111') c='';
 		
 		//c = c.slice(0, -1)
 		c=c+'1',

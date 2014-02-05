@@ -226,17 +226,17 @@ margin-top: 10px;
 {
 position: absolute;
 margin-top:110px;
-opacity:0.5;
+opacity:1;
 
 }
 #next
 {
 
-	right:350px;
+	right:120px;
 }
 #prev
 {
-	left:350px;
+	left:100px;
 }
 
 /*pour organiser le contenue du milieu*/
