@@ -113,68 +113,9 @@
 		}, 1200, function() {
 		// Animation complete.
 		});
-
+		
 		c='1';
 		
-		$('#next').click(function() {
-		chaine='#pic';	
-		prec=chaine.concat(c);
-
-		if(c=='1111111111') c='';
-		
-		//c = c.slice(0, -1)
-		c=c+'1',
-		suiv=chaine.concat(c),
-		$(suiv).animate({
-		opacity: 1.0,
-		top: '+=10',
-		width:'30%',	
-		height:'60%',
-		
-		}, 1000, function() {
-		// Animation complete.
-		});
-		$(prec).animate({
-		opacity: 0.4,
-		top: '-=10',
-		width:'6%',	
-		height:'14%',
-		
-		}, 1000, function() {
-		// Animation complete.
-		});
-		});
-
-
-
-
-		$('#prev').click(function() {
-		chaine='#pic';		
-		suiv=chaine.concat(c);
-		if(c=='1') c='11111111111';
-		c = c.slice(0, -1)
-		
-		prec=chaine.concat(c),
-		$(prec).animate({
-		opacity: 1.0,
-		top: '+=10',
-		width:'30%',	
-		height:'60%',
-		
-		}, 1000, function() {
-		// Animation complete.
-		});
-		$(suiv).animate({
-		opacity: 0.4,
-		top: '-=10',
-		width:'6%',	
-		height:'14%',
-		
-		}, 1000, function() {
-		// Animation complete.
-		});
-		});
-	
 		
 </script>
 		
@@ -195,11 +136,13 @@
 			<tbody>
 				<tr>
 					<td class="side" style="width:240px; ">
-						<a href="index.html"><img src="./images/index.png" alt="Logo de home" width="80" height="80" id="home" /></a>
+					<!--	<a href="index.html"><img src="./images/index.png" alt="Logo de home" width="80" height="80" id="home" /></a>
 						<a href="./html/ddrs.html"><img src="./images/logod.png" alt="Devellopement durable" width="90" height="80" id="logod" /></a>
-							
+							-->
 							<br><br />
 							<nav class="sidemenu">
+
+								<a  href="./html/ddrs.html">Développement durable et responsabilité sociétale</a><br><br />
 								<a  href="./html/partenaire.html">Partenaires</a><br><br />
 								
 								<a  href="./html/quiSommeNous.html">Qui sommes nous</a><br><br />
